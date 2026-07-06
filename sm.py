@@ -156,7 +156,7 @@ def main():
     )
 
     # --- model + likelihood ---
-    num_mixtures = 4
+    num_mixtures = 10
     likelihood = gpytorch.likelihoods.MultitaskGaussianLikelihood(num_tasks=2)
     model = MultitaskSMModel(train_x, train_y, likelihood, num_mixtures=num_mixtures)
 
