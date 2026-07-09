@@ -1,4 +1,5 @@
 renewables-dataset.parquet
+dataset/
 
 __pycache__/
 .ipynb_checkpoints/
@@ -6,3 +7,11 @@ __pycache__/
 .venv/
 venv/
 
+eda.ipynb
+load_and_check_data.py
+
+0105/
+1317/
+2228/
+viz/
+tables/
